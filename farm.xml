@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<?xml-stylesheet type="text/xsl" href="feed.xsl"?>
+<interface xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://zero-install.sourceforge.net/2004/injector/interface https://docs.0install.net/specifications/feed.xsd http://0install.de/schema/desktop-integration/capabilities https://docs.0install.net/specifications/capabilities.xsd" uri="https://raw.githubusercontent.com/Lobanokivan11/0InstallGamesArchive/main/farm.xml" xmlns="http://zero-install.sourceforge.net/2004/injector/interface">
+  <name>Farm Frenzy</name>
+  <summary xml:lang="en">Farm Frenzy</summary>
+  <description xml:lang="en">arm Frenzy is a 2007 casual arcade time-management video game developed by Melesta and published by Alawar Entertainment. It is the first game of the Farm Frenzy series created by Alex Meleshkevich and Kirill Plotnikov. It won “Best Casual Game” award at the 2008 Russian Game Developers Conference.</description>
+  <icon href="https://cdn2.steamgriddb.com/icon/124243dcc405103dcf9419f38c89f078.png" type="image/png" />
+  <icon href="https://cdn2.steamgriddb.com/icon/124243dcc405103dcf9419f38c89f078.png" type="image/png" />
+  <category>Game</category>
+  <implementation arch="Windows-*" version="1.3.0" released="2007-11-08" license="Free for non-commercial use" id="sha256new_KUHE7QVHYT4U2NJQUBBYLG4XB244RW3RCSDSPIRFHJ2VWHU6M7LA">
+    <command name="run" path="farm.exe" />
+    <manifest-digest sha256new="KUHE7QVHYT4U2NJQUBBYLG4XB244RW3RCSDSPIRFHJ2VWHU6M7LA" />
+    <archive href="https://github.com/Lobanokivan11/FarmFrenzy/releases/download/1.0/farm-en.zip" size="28702500" type="application/zip" />
+  </implementation>
+  <entry-point command="run" binary-name="farm" />
+</interface>
+<!-- Base64 Signature
+iQIcBAABAgAGBQJmpQYzAAoJEHkooisGmhBfgoMP/jIqyqS8kpByHbIjbYs/2YmMcH1wNScj5BtwtQ6TDO/tTexcTipLj0ekxzzORecWH+CTrlWdP1uN0Munc6eP3n5UdqdsK2Mcj8IwMwYGnoTK+2lNxDnggnTIK8qP2b2yObl4P1al8pnBlCyZO+WF7vRnwtHMlc88x++dZ+Ktt8e0XJxNlQxie9v3FAeT8aRNQJAKZQH6yKVnevoj58gQQ5QXCDYf78KB1SQvdIwIbvjJGneQc6zauIDDHO53fL8rf4qcn4W4oj8dd3ZXy2wUgLulPG0UR1kgxpzvE+udnulddZMJ1bSd62wji2eUWPXvA+5I/VKvi5U7JjMOM+KI0SDbwNFPQMasT7h0QCRBofgm6svxNRfKSXhFgvctoO9ppxuZhkxwwWat9+CJO87V1hJnzwoB1L+kI9Lds/IwV8i2aGr62HCBkDWf3ClrBGFRJfUliiGQVdBhQwh5r04ng4f/kK+J9d7atDLDjM2nACoOZ03GaFsJSxhC/uR2NZhpLDQoLvEPlGxtrnxJC+M4qXLmNYXpYeICgWf0NDjnZ8kAzlfnEnYVotvWevbkQPlYfSYO5tZ5lPjixeMBZeHb+keEXTx24tlU8fDXQKA1liQdaHi/8lf07XVaVJWaBgM2SO55ULeQUm+tTPtbEBvWVVygmvSuCscXQ32XteMZvDUb
+
+-->
